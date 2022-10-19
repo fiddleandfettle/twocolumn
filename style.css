@@ -191,6 +191,9 @@ main {
         padding: 0;
     }
 }
+.img_spacing {
+    margin: 0 0 .5rem;
+}
 
 /* -------------------- Footer -------------------- */
 footer {
