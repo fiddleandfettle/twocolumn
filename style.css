@@ -38,6 +38,7 @@ p {margin: 0 0 .5em; word-wrap: break-word;}
     font-weight: 600;
     font-style: italic;
 }
+span { font-style: italic; font-size: 1.2em;}
 strong, b {font-weight: 600;}
 i, em, strong, sub, sup {font-style: italic;}
 time {font-weight: 600;}
@@ -120,7 +121,8 @@ header {
 }
 .header_with_img {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 main {
     height: auto;
@@ -195,6 +197,9 @@ main {
         order: 0;
         padding: 0;
     }
+}
+.header_img {
+    margin-right: 1rem;
 }
 .img_responsive_size {
     width: 100%;
