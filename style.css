@@ -217,7 +217,7 @@ footer {
 }
 .social_icons {
     height: auto;
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -225,12 +225,20 @@ footer {
     padding: .5rem;
 }
 .contact_panel {
-    width: 40%;
+    width: 90%;
     height: auto;
     min-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media only screen and (min-width: 48em) { /* 768px */
+    .social_icons {
+        width: 40%;
+    }
+    .contact_panel {
+        width: 40%;
+    }
 }
 .social_icons a {
     text-decoration: none;
