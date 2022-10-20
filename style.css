@@ -134,7 +134,7 @@ main {
 }
 
 /* -------------------- Layout Panel Options -------------------- */
-/* -------- Panels (100% accross in mobile) -------- */
+/* -------- Panels (100% across in mobile) -------- */
 .panel_full,
 .panel_side {
     width: 100%;
@@ -145,9 +145,9 @@ main {
     align-items: center;
     padding: 0 1rem;
 }
-/* -------- Text Panels (100% accross in mobile) -------- */
+/* -------- Text Panels (100% across in mobile) -------- */
 .text_panel {
-    width: 80%;
+    width: 100%;
     height: auto;
     max-width: 750px;
     display: flex;
@@ -156,10 +156,14 @@ main {
     padding: 0 .5rem;
 }
 @media only screen and (min-width: 48em) { /* 768px */
-    /* -------- half panel (50% accross) -------- */
+    /* -------- half panel (50% across) -------- */
     .panel_side  { 
         width: 65%; 
         justify-content: space-evenly;
+    }
+    /* -------- Text Panels (100% across in mobile) -------- */
+    .text_panel {
+        width: 80%;
     }
 }
 .center {
@@ -191,6 +195,11 @@ main {
         order: 0;
         padding: 0;
     }
+}
+.img_responsive_size {
+    width: 100%;
+    height: auto;
+    max-width: max-content;
 }
 .img_spacing {
     margin: 0 0 .5rem;
