@@ -2,7 +2,7 @@
 html { 
     font-family: "Segoe UI", Segoe, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.375em;
+    line-height: 1.375;
     margin: 0;
     padding: 0;
 }
@@ -19,41 +19,40 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: .5rem 0;
     padding: 0;
-    line-height: 1.375em;
     color: rgb(3, 60, 39);
     text-align: center;
 }
-h1 {font-size: 2em;}
-h2 {font-size: 1.5em;}
-h3 {font-size: 1.44em;}
-h4 {font-size: 1.25em;}
-h5 {font-size: 1.125em;}  
-h6 {font-size: 1em;}
-p {margin: 0 0 .5em; word-wrap: break-word;}
+h1 {font-size: 2rem;}
+h2 {font-size: 1.75rem;}
+h3 {font-size: 1.5rem;}
+h4 {font-size: 1.3rem;}
+h5 {font-size: 1.2rem; font-weight: 400;}  
+h6 {font-size: 1rem; font-weight: 400;}
+p {margin: 0 0 .5rem; word-wrap: break-word;}
 .second_font { 
     font-family: 'Courier New', Courier, monospace;
 }
 .shouty_text {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 600;
     font-style: italic;
 }
-span { font-style: italic; font-size: 1.2em;}
+span { font-style: italic; font-size: 1.2rem;}
 strong, b {font-weight: 600;}
 i, em, strong, sub, sup {font-style: italic;}
 time {font-weight: 600;}
 blockquote {
-	margin: 1em;
-	border-top: 0.1em solid;
-	border-bottom: 0.1em solid;
-	padding: 0 1em;
+	margin: 1rem;
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;
+	padding: 0 1rem;
 	font-family: Palatino, Georgia, serif;
 	font-style: italic;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	line-height: 1.5;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.05rem;
 	border-color: rgb(0, 128, 128);
-	border-radius: 0.25em;
+	border-radius: 0.25rem;
     text-align: center;
 }
 hr { border: none; border-top: 1px solid rgb(0, 128, 128); width: 100%;}
@@ -86,12 +85,12 @@ ul, ol {
     align-self: center;
 }
 li {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin: 0;
     padding: .5rem;
 }
 li a {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 600;
     padding: 1rem;
 }
