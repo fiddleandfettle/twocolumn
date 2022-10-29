@@ -206,7 +206,7 @@ main {
     max-width: max-content;
 }
 .img_spacing {
-    margin: 0 0 .5rem;
+    margin: 0 .25rem .5rem;
 }
 
 /* -------------------- Footer -------------------- */
